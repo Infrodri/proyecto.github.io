@@ -61,7 +61,7 @@ footer {
     }
 }
 /* Estilos para la sección "Sobre Mí" */
-#sobre-mi {
+.sobre-mi {
     background-color: #f7f7f7;
     padding: 40px;
     text-align: center;
