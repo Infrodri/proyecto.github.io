@@ -1,14 +1,16 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f0f0f0;
 }
 
 header {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 2rem 0;
 }
 
 nav ul {
@@ -19,31 +21,75 @@ nav ul {
 
 nav li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 nav a {
     text-decoration: none;
     color: #333;
-    background-color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
 }
 
 section {
-    padding: 20px;
-}
-
-.proyecto {
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
     text-align: center;
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 10px 0;
+}
+
+/* Estilos específicos para proyectos */
+.proyecto {
+    margin-top: 20px;
+}
+
+.proyecto img {
+    max-width: 100%;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    section {
+        padding: 20px;
+    }
+}
+/* Estilos para la sección "Sobre Mí" */
+#sobre-mi {
+    background-color: #f7f7f7;
+    padding: 40px;
+    text-align: center;
+}
+
+.sobre-mi-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 200px;
+    margin: 20px 0;
+}
+
+.sobre-mi-info {
+    text-align: center;
+}
+
+.sobre-mi-info h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.sobre-mi-info p {
+    font-size: 16px;
+    margin: 5px 0;
 }
